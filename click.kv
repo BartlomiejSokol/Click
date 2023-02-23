@@ -1,0 +1,24 @@
+MainWidget:
+
+
+<MainWidget>:
+    Button:
+        text: "Click Me"
+        size: "300dp", "200dp"
+        pos: "200dp", "300dp"
+        on_press: root.on_button_click()
+
+    Button:
+        text: "Upgrade"
+        size: "200dp", "200dp"
+        pos: "100dp", "100dp"
+        on_press: root.on_button_upgrade()
+
+    Button:
+        text: "Upgrade 2"
+        size: "200dp", "200dp"
+        pos: "300dp", "100dp"
+        on_press: root.on_button_upgrade2()
+
+    Label:
+        text: root.my_text
